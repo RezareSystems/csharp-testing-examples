@@ -20,14 +20,13 @@ xunit.runner.visualstudio
 
 ### Analyzers
 
-
+StyleCop.Analyzers
 
 ### To Add
 
 moq
 FsCheck.Xunit
 NUnit
-StyleCop.Analyzers
 CSharpGuidelinesAnalyzer
 Microsoft.CodeAnalysis.FxCopAnalyzers
 SonarAnalyzers.CSharp
