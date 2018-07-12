@@ -21,13 +21,13 @@ Provides a set of working examples of different C# testing tools.
 ### Analyzers
 
  - StyleCop.Analyzers
+ - CSharpGuidelinesAnalyzer ( https://csharpcodingguidelines.com/framework-guidelines/ )
 
 ### To Add
 
  - moq
  - FsCheck.Xunit
  - NUnit
- - CSharpGuidelinesAnalyzer
  - Microsoft.CodeAnalysis.FxCopAnalyzers
  - SonarAnalyzers.CSharp
  - FluentAssertions.Analyzers
