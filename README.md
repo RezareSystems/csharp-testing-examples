@@ -17,7 +17,8 @@ Provides a set of working examples of different C# testing tools.
 
  - xunit
  - xunit.runner.visualstudio
-
+ - FluentAssertions.Analyzers
+ 
 ### Analyzers
 
  - StyleCop.Analyzers
@@ -30,7 +31,6 @@ Provides a set of working examples of different C# testing tools.
  - NUnit
  - Microsoft.CodeAnalysis.FxCopAnalyzers
  - SonarAnalyzers.CSharp
- - FluentAssertions.Analyzers
  - xunit.analyzers
  - moq.analyzers
  - System.IO.Abstractions
