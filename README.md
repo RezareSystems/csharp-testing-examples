@@ -18,22 +18,24 @@ Provides a set of working examples of different C# testing tools.
  - xunit
  - xunit.runner.visualstudio
  - FluentAssertions.Analyzers
+ - System.IO.Abstractions
+ - System.IO.Abstractions.TestingHelpers
  
 ### Analyzers
 
  - StyleCop.Analyzers
  - CSharpGuidelinesAnalyzer ( https://csharpcodingguidelines.com/framework-guidelines/ )
+ - xunit.analyzers
 
 ### To Add
 
  - moq
+ - moq.analyzers
  - FsCheck.Xunit
  - NUnit
  - Microsoft.CodeAnalysis.FxCopAnalyzers
  - SonarAnalyzers.CSharp
- - xunit.analyzers
- - moq.analyzers
- - System.IO.Abstractions
+
 
 Possibly other tools with nuget packages here:
 https://github.com/dariusz-wozniak/List-of-Testing-Tools-and-Frameworks-for-.NET/blob/master/README.md
