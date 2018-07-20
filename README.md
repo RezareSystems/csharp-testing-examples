@@ -5,6 +5,7 @@ Provides a set of working examples of different C# testing tools.
 
  - samples
    - Rezare.CSharpTesting.XunitExamples
+   - Rezare.CSharpTesting.SystemIOAbstractionsExamples
 
  - src
    - Rezare.CSharpTesting.SourceCode
@@ -12,10 +13,17 @@ Provides a set of working examples of different C# testing tools.
  - tests
    - Rezare.CSharpTesting.SourceCode.Tests
 
+### Xunit
+
+[Website](https://xunit.github.io/)
+
+[Github](https://github.com/xunit/xunit)
+
+   
 
 ## Nuget Packages
 
- - xunit
+ - xunit 
  - xunit.runner.visualstudio
  - FluentAssertions.Analyzers
  - System.IO.Abstractions
@@ -23,8 +31,8 @@ Provides a set of working examples of different C# testing tools.
  
 ### Analyzers
 
- - StyleCop.Analyzers
- - CSharpGuidelinesAnalyzer ( https://csharpcodingguidelines.com/framework-guidelines/ )
+ - [StyleCop.Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
+ - [CSharpGuidelinesAnalyzer](https://csharpcodingguidelines.com/framework-guidelines)
  - xunit.analyzers
 
 ### To Add
@@ -37,5 +45,4 @@ Provides a set of working examples of different C# testing tools.
  - SonarAnalyzers.CSharp
 
 
-Possibly other tools with nuget packages here:
-https://github.com/dariusz-wozniak/List-of-Testing-Tools-and-Frameworks-for-.NET/blob/master/README.md
+Possibly other tools with nuget packages here: [List of .Net testing tools and frameworks](https://github.com/dariusz-wozniak/List-of-Testing-Tools-and-Frameworks-for-.NET/blob/master/README.md ".Net Testing List")
