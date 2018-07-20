@@ -25,7 +25,7 @@ Provides a set of working examples of different C# testing tools.
 
  - xunit 
  - xunit.runner.visualstudio
- - FluentAssertions.Analyzers
+ - FluentAssertions
  - System.IO.Abstractions
  - System.IO.Abstractions.TestingHelpers
  
@@ -34,6 +34,7 @@ Provides a set of working examples of different C# testing tools.
  - [StyleCop.Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
  - [CSharpGuidelinesAnalyzer](https://csharpcodingguidelines.com/framework-guidelines)
  - xunit.analyzers
+ - FluentAssertions.Analyzers
 
 ### To Add
 
