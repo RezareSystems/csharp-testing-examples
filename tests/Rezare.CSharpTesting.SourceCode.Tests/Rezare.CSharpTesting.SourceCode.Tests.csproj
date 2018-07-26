@@ -10,6 +10,7 @@
     <PackageReference Include="CSharpGuidelinesAnalyzer" Version="3.0.0" />
     <PackageReference Include="FluentAssertions" Version="5.4.1" />
     <PackageReference Include="FluentAssertions.Analyzers" Version="0.11.3" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.2-beta1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta008" />
     <PackageReference Include="System.IO.Abstractions" Version="2.1.0.211" />
