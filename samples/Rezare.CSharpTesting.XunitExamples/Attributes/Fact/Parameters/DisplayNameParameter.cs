@@ -9,9 +9,6 @@ namespace Rezare.CSharpTesting.XunitExamples.Attributes.Fact.Parameters
     public class DisplayNameParameter
     {
         [Fact(DisplayName = "Display new name for Fact")]
-        public void FactDisplayName_ChangeDisplayName_TestDisplaysNewName()
-        {
-            Assert.True(true);
-        }
+        public void FactDisplayName_ChangeDisplayName_TestDisplaysNewName() => Assert.True(true);
     }
 }
