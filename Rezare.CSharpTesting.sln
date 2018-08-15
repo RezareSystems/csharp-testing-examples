@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{2DE792F9-B07E-43B5-8316-78AB8F42A5F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rezare.CSharpTesting.SystemIOAbstractionsExamples", "samples\Rezare.CSharpTesting.SystemIOAbstractionsExamples\Rezare.CSharpTesting.SystemIOAbstractionsExamples.csproj", "{0095D4D9-7BDB-4A64-BAA6-B5D0F180EF2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rezare.CSharpTesting.SystemIOAbstractionsExamples", "samples\Rezare.CSharpTesting.SystemIOAbstractionsExamples\Rezare.CSharpTesting.SystemIOAbstractionsExamples.csproj", "{0095D4D9-7BDB-4A64-BAA6-B5D0F180EF2E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rezare.CSharpTesting.XunitExamples", "samples\Rezare.CSharpTesting.XunitExamples\Rezare.CSharpTesting.XunitExamples.csproj", "{56625D7D-706E-4015-815D-050684D1D6E1}"
 EndProject
@@ -23,6 +23,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0095D4D9-7BDB-4A64-BAA6-B5D0F180EF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0095D4D9-7BDB-4A64-BAA6-B5D0F180EF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0095D4D9-7BDB-4A64-BAA6-B5D0F180EF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0095D4D9-7BDB-4A64-BAA6-B5D0F180EF2E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{56625D7D-706E-4015-815D-050684D1D6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{56625D7D-706E-4015-815D-050684D1D6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56625D7D-706E-4015-815D-050684D1D6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,6 +48,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{0095D4D9-7BDB-4A64-BAA6-B5D0F180EF2E} = {2DE792F9-B07E-43B5-8316-78AB8F42A5F6}
 		{56625D7D-706E-4015-815D-050684D1D6E1} = {2DE792F9-B07E-43B5-8316-78AB8F42A5F6}
 		{CEDD7F7B-1528-49E0-A617-E8AB663BC4AE} = {A8764064-29BD-4495-BD6E-A1BC4F7A1673}
 		{8EC2B232-0B41-4DFB-9C3D-7CB7B97AE2D6} = {9A92F6FA-BBB7-44B0-9718-4C1DFC28C5F8}
