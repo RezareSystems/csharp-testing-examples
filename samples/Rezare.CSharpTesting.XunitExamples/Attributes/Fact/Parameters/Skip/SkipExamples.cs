@@ -2,34 +2,34 @@
 
 namespace Rezare.CSharpTesting.XunitExamples.Attributes.Fact.Parameters
 {
-    public class SkipParameter
+    public class SkipExamples
     {
         [Fact(Skip = "Skip passing test")]
-        public void SkipFactTest_SkipPassingTestWithReason_TestSkippedWithReasonInOutput()
+        public void SkipPassingTestWithReason_TestSkippedWithReasonInOutput()
         {
             Assert.True(true);
         }
 
         [Fact(Skip = "Skip failing test")]
-        public void SkipFactTest_SkipFailingTestWithReason_TestSkippedWithReasonInOutput()
+        public void SkipFailingTestWithReason_TestSkippedWithReasonInOutput()
         {
             Assert.True(false);
         }
 
         [Fact(Skip = "")]
-        public void SkipFactTest_SkipPassingTestWithEmptyReason_TestRunsAndPasses()
+        public void SkipPassingTestWithEmptyReason_TestRunsAndPasses()
         {
             Assert.True(true);
         }
 
         [Fact(Skip = "")]
-        public void SkipFactTest_SkipFailingTestWithEmptyReason_TestRunsAndFails()
+        public void SkipFailingTestWithEmptyReason_TestRunsAndFails()
         {
             Assert.True(false);
         }
 
         [Fact(Skip = "Empty test")]
-        public void SkipFactTest_SkipEmptyTest_TestIsSkipped()
+        public void SkipEmptyTest_TestIsSkipped()
         {
         }
     }
