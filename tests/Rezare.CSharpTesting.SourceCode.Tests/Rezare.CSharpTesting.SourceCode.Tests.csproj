@@ -31,4 +31,8 @@
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rezare.CSharpTesting.SourceCode\Rezare.CSharpTesting.SourceCode.csproj" />
+  </ItemGroup>
+
 </Project>
