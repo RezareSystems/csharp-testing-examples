@@ -16,4 +16,14 @@
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Attributes\Collection\" />
+    <Folder Include="Attributes\Trait\" />
+    <Folder Include="Attributes\Theory\InlineData\" />
+    <Folder Include="Attributes\Theory\MemberData\" />
+    <Folder Include="Attributes\Theory\ClassData\" />
+    <Folder Include="Attributes\Theory\Generics\" />
+    <Folder Include="Attributes\Theory\TheoryData\" />
+  </ItemGroup>
+
 </Project>
