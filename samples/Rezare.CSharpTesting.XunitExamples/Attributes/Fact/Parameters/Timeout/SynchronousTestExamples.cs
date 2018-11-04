@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System.Diagnostics;
+using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 using Xunit.Sdk;
@@ -7,9 +8,6 @@ namespace Rezare.CSharpTesting.XunitExamples.Attributes.Fact.Parameters.Timeout
 {
     public class SynchronousTestExamples
     {
-
-
-
         /// <summary>
         /// This test is simply a demonstration that a TestTimeoutException is thrown when the Timeout is reached.
         /// A test should NOT be constructed in this fashion as Xunit handles failing the test if
@@ -29,6 +27,31 @@ namespace Rezare.CSharpTesting.XunitExamples.Attributes.Fact.Parameters.Timeout
             Assert.ThrowsAsync<TestTimeoutException>(Act);
         }
 
+        [Fact(Timeout = 50)]
+        public void TimeoutLessThanProcessingTime_FailTestWithTimeoutException()
+        {
+            // Arrange
+            var runTimeInMilliseconds = 5000;
+            var stopWatch = Stopwatch.StartNew();
+
+            // Act
+
+            // This loop is written this way, instead of putting the boolean expression in the header,
+            // to remove a Roslyn S108 rule violation warning
+            while (true)
+            {
+                if (stopWatch.ElapsedMilliseconds > runTimeInMilliseconds)
+                {
+                    break;
+                }
+            }
+
+            stopWatch.Stop();
+
+            // Assert
+            Assert.True(true);
+        }
+
         /// <summary>
         /// This test may require parallelization to be turned off.
         /// </summary>
@@ -46,13 +69,13 @@ namespace Rezare.CSharpTesting.XunitExamples.Attributes.Fact.Parameters.Timeout
         }
 
         [Fact(Timeout = 0)]
-        public void FactTimeout_TimeoutIsZero_TimeoutNotApplied()
+        public void TimeoutIsZero_TimeoutNotApplied()
         {
             Assert.True(true);
         }
 
         [Fact(Timeout = -120)]
-        public void FactTimeout_TimeoutLessThanZero_TimeoutNotApplied()
+        public void TimeoutLessThanZero_TimeoutNotApplied()
         {
             Assert.True(true);
         }
