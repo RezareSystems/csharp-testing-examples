@@ -6,16 +6,19 @@
 
   <ItemGroup>
     <PackageReference Include="CSharpGuidelinesAnalyzer" Version="3.0.0" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.1">
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="7.3.2.6129">
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="7.8.0.7320">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta008" />
-    <PackageReference Include="System.IO.Abstractions" Version="2.1.0.226" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta009">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.IO.Abstractions" Version="2.2.6-beta" />
   </ItemGroup>
 
 </Project>
