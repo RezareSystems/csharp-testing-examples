@@ -44,8 +44,20 @@ Provides a set of working examples of different C# testing tools.
  - NUnit
  - Microsoft.CodeAnalysis.FxCopAnalyzers
  - SonarAnalyzers.CSharp
+ - https://github.com/code-cracker/code-cracker
 
+### To Investigate
 
+ - https://github.com/microsoft/vstest/
+ - https://security-code-scan.github.io/
+ - https://github.com/JosefPihrt/Roslynator
+ - https://github.com/Microsoft/RoslynClrHeapAllocationAnalyzer
+ - https://github.com/Wintellect/Wintellect.Analyzers
+ 
+### Analyzer Lists
+ - https://github.com/DotNetAnalyzers
+ - https://github.com/Cybermaxs/awesome-analyzers
+ 
  
 Possibly other tools with nuget packages here:
 
