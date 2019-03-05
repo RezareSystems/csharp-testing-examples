@@ -1,16 +1,22 @@
 # csharp-testing-examples
 Provides a set of working examples of different C# testing tools.
 
-## Projects
+## Project Groupings
 
- - samples
-   - Rezare.CSharpTesting.XunitExamples
+### samples
+This folder contains concise examples of how to use each of the libraries main features.
+
+The libraries contained are:
+ 
+   - Rezare.CSharpTesting.FluentAssertionsExamples
    - Rezare.CSharpTesting.SystemIOAbstractionsExamples
+   - Rezare.CSharpTesting.XunitExamples
+   
 
- - src
+### src
    - Rezare.CSharpTesting.SourceCode
 
- - tests
+### tests
    - Rezare.CSharpTesting.SourceCode.Tests
 
 ### Xunit
