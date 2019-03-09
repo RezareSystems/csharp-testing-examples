@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace Rezare.CSharpTesting.XunitExamples.Attributes.Fact.Parameters
+namespace Rezare.CSharpTesting.XunitExamples.Attributes.Fact.Parameters.DisplayName
 {
     /// <summary>
     /// The DisplayName for a test will only appear in the Visual Studio Test Explorer,
