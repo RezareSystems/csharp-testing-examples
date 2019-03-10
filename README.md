@@ -51,6 +51,7 @@ The libraries contained are:
  - Microsoft.CodeAnalysis.FxCopAnalyzers
  - SonarAnalyzers.CSharp
  - https://github.com/code-cracker/code-cracker
+ - https://github.com/AutoFixture/AutoFixture
 
 ### To Investigate
 
