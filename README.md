@@ -58,6 +58,7 @@ The libraries contained are:
  - https://github.com/microsoft/vstest/
  - https://security-code-scan.github.io/
  - https://github.com/JosefPihrt/Roslynator
+   - This has two Visual Studio Extensions, or two Nuget packages, however you want to use them.
  - https://github.com/Microsoft/RoslynClrHeapAllocationAnalyzer
  - https://github.com/Wintellect/Wintellect.Analyzers
  - https://github.com/xbehave/xbehave.net
