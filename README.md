@@ -38,7 +38,7 @@ The libraries contained are:
 ### Analyzers
 
  - [StyleCop.Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
- - [CSharpGuidelinesAnalyzer](https://csharpcodingguidelines.com/framework-guidelines)
+ - [CSharpGuidelinesAnalyzer](https://csharpcodingguidelines.com)
  - xunit.analyzers
  - FluentAssertions.Analyzers
 
