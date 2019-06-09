@@ -62,6 +62,7 @@ The libraries contained are:
  - https://github.com/Microsoft/RoslynClrHeapAllocationAnalyzer
  - https://github.com/Wintellect/Wintellect.Analyzers
  - https://github.com/xbehave/xbehave.net
+ - [ChillBDD](https://github.com/ChillBDD/Chill)
  
 ### Analyzer Lists
  - https://github.com/DotNetAnalyzers
