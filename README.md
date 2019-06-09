@@ -63,6 +63,7 @@ The libraries contained are:
  - https://github.com/Wintellect/Wintellect.Analyzers
  - https://github.com/xbehave/xbehave.net
  - [ChillBDD](https://github.com/ChillBDD/Chill)
+   - https://fizzylogic.nl/2019/02/21/chilling-out-with-bdd/
  
 ### Analyzer Lists
  - https://github.com/DotNetAnalyzers
