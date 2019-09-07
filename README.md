@@ -75,3 +75,25 @@ Possibly other tools with nuget packages here:
 [List of .Net testing tools and frameworks](https://github.com/dariusz-wozniak/List-of-Testing-Tools-and-Frameworks-for-.NET/blob/master/README.md ".Net Testing List")
 
 [List of .Net BDD frameworks](https://conductofcode.io/post/bdd-frameworks-for-dotnet-csharp/)
+
+## Libraries to add examples of
+
+ 
+### Testing Frameworks
+ - Xunit
+ - NUnit
+ 
+### Mutation Testing
+
+
+### Property Based Testing
+ - FsCheck
+
+### FileSystem Testing
+ - System.IO.Abstractions
+ 
+### Assertions
+ - Fluent Assertions
+ - Shouldy
+
+
